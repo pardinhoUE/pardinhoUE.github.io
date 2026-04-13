@@ -38,10 +38,7 @@ const Projects = () => {
             </div>
             
             <div style={{ display: 'flex', gap: '1.5rem' }}>
-              <a href="#" style={{ color: 'var(--text-primary)', display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', fontSize: '0.9rem' }}>
-                <Github size={18} /> Code
-              </a>
-              <a href="#" style={{ color: 'var(--color-green-neon)', display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', fontSize: '0.9rem' }}>
+              <a href={project.urlLink} style={{ color: 'var(--color-green-neon)', display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', fontSize: '0.9rem' }}>
                 <ExternalLink size={18} /> Live Demo
               </a>
             </div>
