@@ -49,11 +49,25 @@ export const content = {
           role: "Software Engineer (Freelance)",
           period: "Jan 2021 - Present",
           location: "Santiago, Chile",
-          description: "Launched the first sports auction platform in Chile.",
+          description: "Launched the first sports auction platform in Chile, supporting over 2,500 active bids.",
           highlights: [
-            "Engineered a high-concurrency bidding engine using Socket.io and Node.js.",
-            "Integrated Mercado Pago for secure, real-time financial transactions.",
-            "Managed static assets and media storage via AWS S3."
+            "Successfully migrated the entire infrastructure to AWS in 2024 to support massive traffic surges during high-profile media events (Festival de Viña), maintaining zero downtime.",
+            "Engineered a high-concurrency, real-time bidding engine leveraging Socket.io and Node.js.",
+            "Spearheaded high-impact philanthropic auctions to provide housing relief for wildfire victims in Chile.",
+            "Integrated Mercado Pago's payment gateway and managed high-availability storage via AWS S3."
+          ]
+        },
+        {
+          company: "RED-APIS",
+          role: "Software Engineer",
+          period: "May 2017 - Jan 2022",
+          location: "Santiago, Chile",
+          description: "Built large-scale enterprise systems with a focus on accessibility and real-time communication.",
+          highlights: [
+            "Developed 'AtiendeOnline', a disruptive video conferencing platform for public institutions using WebRTC and Socket.io.",
+            "Improved social inclusion by enabling real-time interpretation for deaf citizens and non-native speakers within government services.",
+            "Built and maintained mission-critical corporate data management systems using Laravel and MySQL.",
+            "Managed complex deployments and infrastructure across Google Cloud and AWS."
           ]
         }
       ]
@@ -80,22 +94,25 @@ export const content = {
       ]
     },
     projects: {
-      title: "Featured Projects",
+      title: "Freelance & Independent Projects",
       items: [
         {
-          name: "CBR Management System",
+          name: "CBR San Carlos Management System",
           tech: "React, Laravel, AWS",
-          description: "Full-scale ERP for legal deed management and workflow automation."
+          description: "Leading as a Lead Freelance Developer to engineer a full-scale ERP for legal deed management and workflow automation.",
+          urlLink: "https://cbrsancarlos.cl/"
         },
         {
           name: "SubastasFutChile",
           tech: "Node.js, Socket.io, PHP",
-          description: "Real-time sports memorabilia auction platform with 10k+ active users."
+          description: "Founder & Lead Developer of Chile's first real-time sports auction platform, handling massive media-driven traffic spikes.",
+          urlLink: "https://subastasfutchile.cl/"
         },
         {
           name: "PrismaAgen Simulator",
           tech: "React, Tailwind, AWS",
-          description: "ROI calculation engine for industrial efficiency optimization."
+          description: "Independent Consultant for industrial ROI calculation engine, optimizing enterprise decision-making through data visualization.",
+          urlLink: "https://prismagen.com/"
         }
       ]
     },
@@ -155,11 +172,25 @@ export const content = {
           role: "Software Engineer (Freelance)",
           period: "Enero 2021 - Actualidad",
           location: "Santiago, Chile",
-          description: "Lancé la primera plataforma de subastas deportivas en Chile.",
+          description: "Lancé la primera plataforma de subastas deportivas en Chile, procesando más de 2,500 pujas.",
           highlights: [
+            "Migré exitosamente la plataforma a AWS en 2024 para soportar tráfico masivo durante el Festival de Viña, manteniendo 100% de disponibilidad.",
             "Ingeniería de un motor de subastas de alta concurrencia usando Socket.io y Node.js.",
-            "Integré Mercado Pago para transacciones financieras seguras en tiempo real.",
-            "Gestioné activos estáticos y almacenamiento de medios vía AWS S3."
+            "Lideré subastas mediáticas de beneficencia para apoyar a familias que perdieron sus hogares en incendios forestales.",
+            "Integré Mercado Pago para transacciones seguras y gestioné almacenamiento de alta disponibilidad en AWS S3."
+          ]
+        },
+        {
+          company: "RED-APIS",
+          role: "Software Engineer",
+          period: "Mayo 2017 - Enero 2022",
+          location: "Santiago, Chile",
+          description: "Construcción de sistemas empresariales a gran escala con foco en accesibilidad.",
+          highlights: [
+            "Desarrollé 'AtiendeOnline', un sistema de videollamadas para instituciones públicas usando WebRTC y Socket.io.",
+            "Generé un gran impacto social permitiendo la atención de personas sordas o extranjeros en servicios públicos mediante interpretación en tiempo real.",
+            "Desarrollé sistemas de gestión de datos corporativos centralizados usando Laravel y MySQL.",
+            "Gestioné despliegues e infraestructura en Google Cloud y AWS."
           ]
         }
       ]
@@ -186,22 +217,25 @@ export const content = {
       ]
     },
     projects: {
-      title: "Proyectos Destacados",
+      title: "Proyectos Freelance & Independientes",
       items: [
         {
           name: "Sistema de Gestión CBR",
           tech: "React, Laravel, AWS",
-          description: "ERP a gran escala para gestión de escrituras legales y automatización de flujos."
+          description: "Desarrollador Freelance Principal para un ERP de gestión de escrituras legales y automatización de procesos.",
+          urlLink: "https://cbrsancarlos.cl/"
         },
         {
           name: "SubastasFutChile",
           tech: "Node.js, Socket.io, PHP",
-          description: "Plataforma de subastas deportivas en tiempo real con más de 10k usuarios."
+          description: "Fundador y Desarrollador Principal de la primera plataforma de subastas deportivas en tiempo real de Chile.",
+          urlLink: "https://subastasfutchile.cl/"
         },
         {
           name: "Simulador PrismaAgen",
           tech: "React, Tailwind, AWS",
-          description: "Motor de cálculo de ROI para optimización de eficiencia industrial."
+          description: "Consultor Independiente para motor de cálculo de ROI industrial enfocado en optimización de eficiencia.",
+          urlLink: "https://prismagen.com/"
         }
       ]
     },
